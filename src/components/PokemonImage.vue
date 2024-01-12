@@ -12,6 +12,7 @@ export default {
     pokemonId: {
       type: Number,
       required: true,
+      default: 1,
     },
     showPokemon: {
       type: Boolean,
